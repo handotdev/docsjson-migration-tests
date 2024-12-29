@@ -1,0 +1,353 @@
+{
+  "$schema": "https://mintlify.com/schemas/docs.json",
+  "name": "Koywe",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#006252",
+    "light": "#C9FF1F",
+    "dark": "#003C2A"
+  },
+  "topbar": {
+    "links": [
+      {
+        "name": "Demo",
+        "href": "https://koywe.com/buy-crypto"
+      }
+    ],
+    "primary": {
+      "name": "Home",
+      "href": "https://koywe.com"
+    }
+  },
+  "navigation": {
+    "versions": [
+      {
+        "version": "English",
+        "anchors": [
+          {
+            "anchor": "Documentation",
+            "icon": "book-open",
+            "groups": [
+              {
+                "group": "Introduction",
+                "version": "English",
+                "pages": [
+                  "english/introduction",
+                  "english/video-tour"
+                ]
+              },
+              {
+                "group": "About Koywe",
+                "version": "English",
+                "pages": [
+                  {
+                    "group": "🌳 What is Koywe",
+                    "pages": [
+                      "english/about-koywe/what-is-koywe/overview",
+                      "english/about-koywe/what-is-koywe/user-validation",
+                      "english/about-koywe/what-is-koywe/purchasing-process",
+                      "english/about-koywe/what-is-koywe/selling-process"
+                    ]
+                  },
+                  "english/about-koywe/use-cases"
+                ]
+              },
+              {
+                "group": "Documentation",
+                "version": "English",
+                "pages": [
+                  "english/documentation/credentials",
+                  "english/documentation/compliance",
+                  "english/documentation/sdk-documentation",
+                  "english/documentation/webhooks-and-callbacks"
+                ]
+              },
+              {
+                "group": "API Documentation",
+                "version": "English",
+                "pages": [
+                  "english/documentation/api-documentation",
+                  "english/documentation/api-documentation/basic-api-flow",
+                  "english/documentation/api-documentation/testing-api-limitations",
+                  "english/documentation/api-documentation/graphql-api",
+                  {
+                    "group": "RESTful API",
+                    "pages": [
+                      "english/documentation/api-documentation/restful-api/restful-api",
+                      {
+                        "group": "Authentication",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Auth/creates-authorization-token"
+                        ]
+                      },
+                      {
+                        "group": "Accounts",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Accounts/retrieve-account-data",
+                          "english/documentation/api-documentation/restful-api/Accounts/retrieve-account-data-movements-balance",
+                          "english/documentation/api-documentation/restful-api/Accounts/check-if-the-account-can-operate",
+                          "english/documentation/api-documentation/restful-api/Accounts/creates-account",
+                          "english/documentation/api-documentation/restful-api/Accounts/updates-account"
+                        ]
+                      },
+                      {
+                        "group": "Currency",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Currency/list-supported-currency-token-pairs",
+                          "english/documentation/api-documentation/restful-api/Currency/retrieve-currency-token-pair"
+                        ]
+                      },
+                      {
+                        "group": "Token",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Token/list-supported-coin-token-pairs",
+                          "english/documentation/api-documentation/restful-api/Token/retrieve-coin-token-pair"
+                        ]
+                      },
+                      {
+                        "group": "Payment Provider",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Payment-provider/list-of-payment-methods-available-for-a-given-currency"
+                        ]
+                      },
+                      {
+                        "group": "Payout Provider",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Payout-provider/list-of-payout-methods-available-for-a-given-currency"
+                        ]
+                      },
+                      {
+                        "group": "Quotes",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Quotes/creates-a-purchase-or-sale-quote",
+                          "english/documentation/api-documentation/restful-api/Quotes/retrieve-quote"
+                        ]
+                      },
+                      {
+                        "group": "Orders",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Orders/creates-order",
+                          "english/documentation/api-documentation/restful-api/Orders/list-orders",
+                          "english/documentation/api-documentation/restful-api/Orders/retrieve-order-information",
+                          "english/documentation/api-documentation/restful-api/Orders/retrieve-order-information-by-externalId",
+                          "english/documentation/api-documentation/restful-api/Orders/retrieve-order-information-by-txHash",
+                          "english/documentation/api-documentation/restful-api/Orders/order-refund",
+                          "english/documentation/api-documentation/restful-api/Orders/add-txHash-to-order",
+                          "english/documentation/api-documentation/restful-api/Orders/reprocess-order",
+                          "english/documentation/api-documentation/restful-api/Orders/attach-payment-receipt"
+                        ]
+                      },
+                      {
+                        "group": "Banks",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Banks/list-banks-by-country",
+                          "english/documentation/api-documentation/restful-api/Banks/retrieve-bank-account",
+                          "english/documentation/api-documentation/restful-api/Banks/creates-bank-account",
+                          "english/documentation/api-documentation/restful-api/Banks/deletes-bank-account"
+                        ]
+                      },
+                      {
+                        "group": "Deals",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Deals/list-deals"
+                        ]
+                      },
+                      {
+                        "group": "Clients",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Clients/updates-webhook",
+                          "english/documentation/api-documentation/restful-api/Clients/updates-validation-webhook",
+                          "english/documentation/api-documentation/restful-api/Clients/retrieve-address",
+                          "english/documentation/api-documentation/restful-api/Clients/upload-delegated-kyc-files"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Let's talk",
+            "href": "https://meetings.hubspot.com/sebastian-koywe/meet",
+            "icon": "phone"
+          },
+          {
+            "group": "Contact us",
+            "href": "mailto:contacto@koywe.com",
+            "icon": "envelope"
+          }
+        ]
+      },
+      {
+        "version": "Español",
+        "anchors": [
+          {
+            "anchor": "Documentación",
+            "icon": "book-open",
+            "groups": [
+              {
+                "group": "Introducción",
+                "version": "Español",
+                "pages": [
+                  "bienvenido-a-koywe",
+                  "video-tour"
+                ]
+              },
+              {
+                "group": "Sobre Koywe",
+                "version": "Español",
+                "pages": [
+                  {
+                    "group": "🌳 ¿Qué es Koywe?",
+                    "pages": [
+                      "sobre-koywe/que-es-koywe",
+                      "sobre-koywe/que-es-koywe/validacion-de-usario",
+                      "sobre-koywe/que-es-koywe/proceso-de-compra",
+                      "sobre-koywe/que-es-koywe/proceso-de-venta"
+                    ]
+                  },
+                  "sobre-koywe/casos-de-uso"
+                ]
+              },
+              {
+                "group": "Documentación",
+                "version": "Español",
+                "pages": [
+                  "documentacion/credenciales",
+                  "documentacion/compliance",
+                  "documentacion/documentacion-sdk",
+                  "documentacion/webhooks-y-callbacks"
+                ]
+              },
+              {
+                "group": "Documentación API",
+                "version": "Español",
+                "pages": [
+                  "documentacion/documentacion-api",
+                  "documentacion/documentacion-api/flujo-basico-api",
+                  "documentacion/documentacion-api/limitaciones-api-pruebas",
+                  "documentacion/documentacion-api/api-graphql",
+                  {
+                    "group": "API REST",
+                    "pages": [
+                      "documentacion/documentacion-api/api-rest",
+                      {
+                        "group": "Authentication",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Auth/creates-authorization-token"
+                        ]
+                      },
+                      {
+                        "group": "Accounts",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Accounts/retrieve-account-data",
+                          "english/documentation/api-documentation/restful-api/Accounts/retrieve-account-data-movements-balance",
+                          "english/documentation/api-documentation/restful-api/Accounts/check-if-the-account-can-operate",
+                          "english/documentation/api-documentation/restful-api/Accounts/creates-account",
+                          "english/documentation/api-documentation/restful-api/Accounts/updates-account"
+                        ]
+                      },
+                      {
+                        "group": "Currency",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Currency/list-supported-currency-token-pairs",
+                          "english/documentation/api-documentation/restful-api/Currency/retrieve-currency-token-pair"
+                        ]
+                      },
+                      {
+                        "group": "Token",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Token/list-supported-coin-token-pairs",
+                          "english/documentation/api-documentation/restful-api/Token/retrieve-coin-token-pair"
+                        ]
+                      },
+                      {
+                        "group": "Payment Provider",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Payment-provider/list-of-payment-methods-available-for-a-given-currency"
+                        ]
+                      },
+                      {
+                        "group": "Payout Provider",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Payout-provider/list-of-payout-methods-available-for-a-given-currency"
+                        ]
+                      },
+                      {
+                        "group": "Quotes",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Quotes/creates-a-purchase-or-sale-quote",
+                          "english/documentation/api-documentation/restful-api/Quotes/retrieve-quote"
+                        ]
+                      },
+                      {
+                        "group": "Orders",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Orders/creates-order",
+                          "english/documentation/api-documentation/restful-api/Orders/list-orders",
+                          "english/documentation/api-documentation/restful-api/Orders/retrieve-order-information",
+                          "english/documentation/api-documentation/restful-api/Orders/retrieve-order-information-by-externalId",
+                          "english/documentation/api-documentation/restful-api/Orders/retrieve-order-information-by-txHash",
+                          "english/documentation/api-documentation/restful-api/Orders/order-refund",
+                          "english/documentation/api-documentation/restful-api/Orders/add-txHash-to-order",
+                          "english/documentation/api-documentation/restful-api/Orders/reprocess-order",
+                          "english/documentation/api-documentation/restful-api/Orders/attach-payment-receipt"
+                        ]
+                      },
+                      {
+                        "group": "Banks",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Banks/list-banks-by-country",
+                          "english/documentation/api-documentation/restful-api/Banks/retrieve-bank-account",
+                          "english/documentation/api-documentation/restful-api/Banks/creates-bank-account",
+                          "english/documentation/api-documentation/restful-api/Banks/deletes-bank-account"
+                        ]
+                      },
+                      {
+                        "group": "Deals",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Deals/list-deals"
+                        ]
+                      },
+                      {
+                        "group": "Clients",
+                        "pages": [
+                          "english/documentation/api-documentation/restful-api/Clients/updates-webhook",
+                          "english/documentation/api-documentation/restful-api/Clients/updates-validation-webhook",
+                          "english/documentation/api-documentation/restful-api/Clients/retrieve-address",
+                          "english/documentation/api-documentation/restful-api/Clients/upload-delegated-kyc-files"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hablemos",
+            "href": "https://meetings.hubspot.com/sebastian-koywe/meet",
+            "icon": "phone"
+          },
+          {
+            "name": "Contáctanos",
+            "href": "mailto:contacto@koywe.com",
+            "icon": "envelope"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "twitter": "https://twitter.com/koywe_latam",
+      "linkedin": "https://www.linkedin.com/company/koywe/",
+      "github": "https://www.github.com/koyweforest"
+    }
+  }
+}
