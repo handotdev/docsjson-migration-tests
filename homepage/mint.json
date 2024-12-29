@@ -1,0 +1,218 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Mintlify",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://mintlify.com"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#55D799",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#117866",
+      "to": "#2AB673"
+    }
+  },
+  "api": {
+    "auth": {
+      "method": "bearer"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Community",
+      "url": "https://mintlify.com/community"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://mintlify.com/start"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "primaryTab": {
+    "name": "Home"
+  },
+  "tabs": [
+    {
+      "name": "Documentation",
+      "url": "guides"
+    },
+    {
+      "name": "Components",
+      "url": "content"
+    },
+    {
+      "name": "Integrations",
+      "url": "integrations"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "",
+      "pages": [
+        "introduction"
+      ]
+    },
+    {
+      "group": "Getting Started",
+      "pages": [
+        "guides/quickstart",
+        "guides/development",
+        "guides/settings/global",
+        "guides/settings/navigation"
+      ]
+    },
+    {
+      "group": "Writing Content",
+      "pages": [
+        "guides/page",
+        "guides/text",
+        "guides/image-embeds",
+        "guides/list-table",
+        "guides/code",
+        "guides/reusable-snippets"
+      ]
+    },
+    {
+      "group": "API References",
+      "pages": [
+        "guides/api-playground/overview",
+        {
+          "group": "Using OpenAPI",
+          "pages": [
+            "guides/api-playground/openapi/setup",
+            "guides/api-playground/openapi/writing-openapi",
+            "guides/api-playground/openapi/advanced-features"
+          ]
+        },
+        {
+          "group": "Using MDX",
+          "pages": [
+            "guides/api-playground/mdx/configuration",
+            "guides/api-playground/mdx/authentication"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Configurations",
+      "pages": [
+        "guides/settings/custom-domain",
+        "guides/settings/seo",
+        "guides/settings/broken-links",
+        "guides/settings/versioning",
+        "guides/settings/add-members"
+      ]
+    },
+    {
+      "group": "Analytics",
+      "pages": [
+        "integrations/analytics/overview",
+        "integrations/analytics/amplitude",
+        "integrations/analytics/clearbit",
+        "integrations/analytics/fathom",
+        "integrations/analytics/google-analytics",
+        "integrations/analytics/google-tag-manager",
+        "integrations/analytics/heap",
+        "integrations/analytics/hotjar",
+        "integrations/analytics/koala",
+        "integrations/analytics/logrocket",
+        "integrations/analytics/mixpanel",
+        "integrations/analytics/pirsch",
+        "integrations/analytics/plausible",
+        "integrations/analytics/posthog"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "guides/api-reference/post-chatcompletions",
+        "guides/api-reference/post-completions",
+        "guides/api-reference/generate-a-new-image-from-a-text-prompt",
+        "guides/api-reference/generate-a-new-image-from-an-image",
+        "guides/api-reference/generate-a-new-image-using-controlnet-with-provided-image-as-a-guidance",
+        "guides/api-reference/creates-an-embedding-vector-representing-the-input-text"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "integrations/support/overview",
+        "integrations/support/intercom",
+        "integrations/support/front"
+      ]
+    },
+    {
+      "group": "Privacy",
+      "pages": [
+        "integrations/privacy/overview",
+        "integrations/privacy/osano"
+      ]
+    },
+    {
+      "group": "Custom Subpaths",
+      "pages": [
+        "integrations/subpath/cloudflare",
+        "integrations/subpath/route53-cloudfront"
+      ]
+    },
+    {
+      "group": "Custom Scripts",
+      "pages": [
+        "integrations/custom/css",
+        "integrations/custom/js"
+      ]
+    },
+    {
+      "group": "SDKs",
+      "pages": [
+        "integrations/sdks/speakeasy"
+      ]
+    },
+    {
+      "group": "Components",
+      "pages": [
+        "content/components/accordions",
+        "content/components/accordion-groups",
+        "content/components/callouts",
+        "content/components/cards",
+        "content/components/card-groups",
+        "content/components/code",
+        "content/components/code-groups",
+        "content/components/frames",
+        "content/components/mermaid-diagrams",
+        "content/components/steps",
+        "content/components/tabs",
+        "content/components/tooltips"
+      ]
+    },
+    {
+      "group": "API Components",
+      "pages": [
+        "content/components/params",
+        "content/components/responses",
+        "content/components/expandables",
+        "content/components/sticky-examples"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/mintlify",
+    "slack": "https://mintlify.com/community",
+    "twitter": "https://twitter.com/mintlify"
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-RCYWHL7EQ7"
+    },
+    "koala": {
+      "publicApiKey": "pk_76a6caa274e800f3ceff0b2bc6b9b9d82ab8"
+    }
+  }
+}
